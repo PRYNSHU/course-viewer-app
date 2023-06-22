@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#043760"
+    tools:context=".loginActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:id="@+id/username"
+        android:layout_marginHorizontal="34sp"
+        android:hint="Enter user name"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="162sp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pass"
+        android:textColor="@color/white"
+        android:layout_below="@id/username"
+        android:layout_marginHorizontal="30sp"
+        android:hint="Enter password"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="62sp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnlogin"
+        android:layout_below="@id/pass"
+        android:layout_marginTop="66sp"
+        android:layout_centerHorizontal="true"
+        android:text="Login"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New user? Register here"
+        android:id="@+id/registerTV"
+        android:layout_below="@id/btnlogin"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/pgbar"
+        android:visibility="gone"/>
+
+</RelativeLayout>

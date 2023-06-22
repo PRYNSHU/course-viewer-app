@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#043760"
+    tools:context=".registrationActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:layout_marginHorizontal="30sp"
+        android:hint="Enter user name"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_marginTop="122sp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pass"
+        android:layout_below="@id/username"
+        android:layout_marginHorizontal="30sp"
+        android:textColor="@color/white"
+        android:hint="Enter password"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="32sp"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cnfpass"
+        android:layout_below="@id/pass"
+        android:layout_marginHorizontal="30sp"
+        android:textColor="@color/white"
+        android:hint="confirm password"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="32sp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRegister"
+        android:paddingHorizontal="42sp"
+        android:layout_below="@id/cnfpass"
+        android:layout_marginTop="56sp"
+        android:layout_centerHorizontal="true"
+        android:text="Register"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="already registered? login Here"
+        android:id="@+id/loginTV"
+        android:paddingHorizontal="13sp"
+        android:layout_below="@id/btnRegister"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22sp"
+        android:textSize="18sp"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/pgbar"
+        android:visibility="gone"/>
+
+</RelativeLayout>

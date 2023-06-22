@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    app:cardCornerRadius="20sp"
+    app:cardElevation="22sp"
+    android:layout_margin="10sp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RLview"
+        android:background="#1C31AA">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:id="@+id/imgview"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="course name"
+            android:id="@+id/crsName"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_margin="3sp"
+            android:textColor="@color/white"
+            android:singleLine="true"
+            android:padding="4sp"
+            android:layout_below="@id/imgview"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/crsprice"
+            android:text="course price"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_alignParentEnd="true"
+            android:singleLine="true"
+            android:layout_margin="3sp"
+            android:textColor="@color/white"
+            android:padding="4sp"
+            android:layout_below="@id/imgview"/>
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

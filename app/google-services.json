@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "699809452119",
+    "firebase_url": "https://fbase-crud-4743a-default-rtdb.firebaseio.com",
+    "project_id": "fbase-crud-4743a",
+    "storage_bucket": "fbase-crud-4743a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699809452119:android:6fc59bf7c1fe1983721312",
+        "android_client_info": {
+          "package_name": "com.example.myfbase_crud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699809452119-vk1fg5n9631epiqqnudr6do0stus3rdc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-NZWHM0dYypvnECB_vuUT7dRoUj6puaI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699809452119-vk1fg5n9631epiqqnudr6do0stus3rdc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
